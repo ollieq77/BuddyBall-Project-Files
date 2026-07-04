@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder --win portable"
   },
   "devDependencies": {
     "electron": "^43.0.0",
     "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.ollie.buddyball",
+    "productName": "BuddyBall",
+    "files": [
+      "**/*",
+      "!files/**"
+    ],
+    "win": {
+      "target": "portable"
+    }
   }
 }
