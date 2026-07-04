@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Repo A's content (buddy files, distributed separately now)
+files/
+
+# Build output
+dist/
+out/
+build/
+
+# Environment / secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor config
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
