@@ -18,7 +18,8 @@
       "!files/**"
     ],
     "win": {
-      "target": "portable"
+      "target": "portable",
+      "signAndEditExecutable": false
     }
   }
 }
